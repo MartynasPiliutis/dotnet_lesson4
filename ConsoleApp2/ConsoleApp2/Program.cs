@@ -32,7 +32,7 @@ namespace ConsoleApp2
             Console.WriteLine("Pabaiga");
             Console.ReadLine();
 
-            //Task4 isveda teksta atbuline tvarka
+            //Task3 isveda teksta atbuline tvarka
             string tekstas;
             Console.Write("Iveskite teksta: ");
             tekstas = Console.ReadLine();
@@ -45,6 +45,22 @@ namespace ConsoleApp2
             Console.WriteLine();
             Console.WriteLine("Pabaiga");
             Console.ReadLine();
+
+            //Task4 ciklas cikle
+            int betKoksSkaicius2;
+            Console.Write("Iveskite skaiciu: ");
+            betKoksSkaicius2 = Convert.ToInt32(Console.ReadLine());
+
+            for (string ask = y; ; ask == y)
+            {
+                for (int daugiklis = 0; ask = y; daugiklis++)
+                {
+                    Console.WriteLine("{0} x {1} = {2}", betKoksSkaicius2, daugiklis, betKoksSkaicius2 * daugiklis);
+                }
+                Console.Write("Ar norite testi? y/n");
+                ask = Console.ReadLine();
+            }
+
 
         }
     }
