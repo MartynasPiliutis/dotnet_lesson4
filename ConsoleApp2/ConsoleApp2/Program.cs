@@ -32,6 +32,20 @@ namespace ConsoleApp2
             Console.WriteLine("Pabaiga");
             Console.ReadLine();
 
+            //Task4 isveda teksta atbuline tvarka
+            string tekstas;
+            Console.Write("Iveskite teksta: ");
+            tekstas = Console.ReadLine();
+
+            for (int t = tekstas.Length-1; t >= 0; t--)
+            {
+                char a = tekstas[t];
+                Console.Write("{0}", a);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Pabaiga");
+            Console.ReadLine();
+
         }
     }
 }
