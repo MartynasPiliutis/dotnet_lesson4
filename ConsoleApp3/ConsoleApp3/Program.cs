@@ -30,6 +30,25 @@ namespace ConsoleApp3
             }
             Console.ReadLine();
 
+            //Example2 elemento keitimas
+
+            Console.WriteLine("Pries:");
+            foreach (var diena in savaitesDienos)
+            {
+                Console.WriteLine(diena);
+            }
+
+            savaitesDienos[2] = "TRECIADIENIS";
+
+            Console.WriteLine("");
+            Console.WriteLine("Po:");
+
+            foreach (var diena in savaitesDienos)
+            {
+                Console.WriteLine(diena);
+            }
+            Console.ReadLine();
+
         }
     }
 }
