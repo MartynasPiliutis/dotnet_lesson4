@@ -23,6 +23,16 @@ namespace ConsoleApp1
                 Console.WriteLine("c reiksme: {0}", c);
             }
             Console.ReadLine();
+
+            //Example3 masyvo elementu kiekvieno paemimas
+
+            string vardas = "Martynas";
+            for (int v = 0; v < vardas.Length; v++)
+            {
+                char current = vardas[v];
+                Console.WriteLine(current);
+            }
+            Console.ReadLine();
         }
     }
 }
