@@ -22,6 +22,16 @@ namespace ConsoleApp4
             {
                 Console.Write("{0} ", skaicius);
             }
+            Console.WriteLine();
+
+            //Task2
+            int suma = 0;
+
+            foreach (var skaicius in skaiciuMasyvas)
+            {
+                suma += skaicius;
+            }
+            Console.Write("Suma: {0}", suma);
             Console.ReadLine();
         }
     }
