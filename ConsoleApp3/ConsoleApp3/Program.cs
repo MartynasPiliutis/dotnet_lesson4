@@ -10,6 +10,26 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            //Example1 savaites dienu sarasas
+            //string pirmadienis = "pirmadienis";
+
+            string[] savaitesDienos =
+            {
+                "Pirmadienis",
+                "Antradienis",
+                "Treciadienis",
+                "Ketvirtadienis",
+                "Penktadienis",
+                "Sestadienis",
+                "Sekmadienis"
+            };
+
+            for (int i = 0; i < savaitesDienos.Length; i++)
+            {
+                Console.WriteLine(savaitesDienos[i]);
+            }
+            Console.ReadLine();
+
         }
     }
 }
