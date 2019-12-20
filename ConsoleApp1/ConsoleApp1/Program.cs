@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace ConsoleApp1
 {
@@ -32,6 +33,18 @@ namespace ConsoleApp1
                 char current = vardas[v];
                 Console.WriteLine(current);
             }
+            Console.ReadLine();
+
+            //Example4 progres bar
+
+            for (int p = 0; p<50; p++)
+            {
+                //Reikia prideti Using.System.Threading;
+                Thread.Sleep(100); //milisekundemis
+                Console.Write("#");
+            }
+            Console.WriteLine(); ;
+            Console.WriteLine("Pabaiga");
             Console.ReadLine();
         }
     }
