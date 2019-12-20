@@ -49,6 +49,18 @@ namespace ConsoleApp3
             }
             Console.ReadLine();
 
+            //Example3 random skaiciu sudejimas i masyva
+            int[] skaiciai = new int[10];
+            Random rnd = new Random();
+            for (int i = 0; i < skaiciai.Length; i++)
+            {
+                skaiciai[i] = rnd.Next(1,100);
+            }
+            foreach (var skaicius in skaiciai)
+            {
+                Console.Write("{0} ", skaicius);
+            }
+            Console.ReadLine();
         }
     }
 }
