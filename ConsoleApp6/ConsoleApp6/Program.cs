@@ -10,12 +10,12 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
-            int[] skaiciuMasyvas = new int[10];
+            int[] skaiciuMasyvas = new int[100];
             Random rnd = new Random();
 
             for (int i = 0; i <= skaiciuMasyvas.Length-1; i++)
             {
-                int a = rnd.Next(1, 100);
+                int a = rnd.Next(1, 1000);
                 skaiciuMasyvas[i] = a;
             }
 
